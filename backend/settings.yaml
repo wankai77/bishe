@@ -1,0 +1,28 @@
+mysql:
+  dialects: mysql
+  host: 127.0.0.1
+  port: 3306
+  db: bishe
+  username: root
+  password: .0duwankai
+  charset: utf8
+  maxIdle: 50
+  maxOpen: 150
+
+server:
+  address: :8888
+  model: debug
+
+
+
+logger:
+  level: info
+  prefix: '[gvb]'
+  director: log
+  show-line: true
+  log-in-console: true
+
+log:
+  path: ./log
+  name: sys
+  model: console
